@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #111827;
+}
+
+.logo{
+    width: 180px;
+    height: 180px;
+}
+
+body{
+    background-color: #0B0B0B;
+}
+footer{
+    background-color: #111827;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.hero{
+    max-width: 1400px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.hero-img{ 
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+.ag3{
+    font-size: 20px;
+    max-width: 500px;
+    color: white;
+}
+
+.btn{
+    background-color: #0066FF;
+    color: #111827;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    max-width: 180px;
+}
+
+.Gamelogo{
+    width: 200px;
+    height: 200px;
+}
+
+.primeiro {
+  background-color: #f0f9f4;
+  width: 310px;
+  padding-bottom: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 13px;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+
+.butcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    background-color: #22c55e;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.butcard:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.4);
+
+}
+
+.primeiro:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.4);
+}
+
+.cards {
+    
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 312px);
+  gap: 50px;
+  padding-bottom: 15px;
+}
+.cards .primeiro img {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.texto {
+    padding-top: 5px;
+  text-align: center;
+  max-width: 97%;
+}
+
+.preco {
+  color: black;
+}
